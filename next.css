@@ -202,6 +202,7 @@ h2{
 .headabtres{
     padding-left:15px;
 }
+
 #namejs{
     font-size: 1.4rem;
     color: black;
@@ -256,4 +257,52 @@ i{
 }
 .educationres{
     width: 50%;
+    
+}
+
+.resumw, .sameline {
+    visibility: hidden;
+}
+.heading button{
+    background-color: blue;
+    border: none;
+    padding: 15px;
+    color: aliceblue;
+    border-radius: 15px;
+    margin-left: 400px;
+    cursor: pointer;
+}
+
+
+#skillsjs{
+    width: fit-content;
+    background-color: rgb(118, 105, 162);
+    border-radius: 10px;
+    padding:10px;
+    color:white;
+}
+.boards{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1rem;
+    margin-left: 15px;
+}
+.percentages{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: .8rem;
+    margin-left: 15px;
+}
+#highschooljs{
+    margin-top: 15px ;
+    font-size: 1.2rem;
+    padding-left: 15px;
+}
+#intermediatejs{
+    padding-left: 15px;
+    font-size: 1.2rem;
+}
+.skills{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    flex-direction: column;
 }
